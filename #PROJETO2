@@ -1,14 +1,30 @@
-.cabecalho { .cartao-interno { 
-  position: relative; 
-} 
-  display: flex; 
+.cabecalho { .cartao-interno { alfabeto = "abcdefghijklmnopqrstuvwxyz"
+  posifor letra in senha:tion: relative;senha = "marcelo"senha = "marcelo"
+  :} for letra in alfabet
+    numero = ord(letra)for letra in senha:
+    print(letra, numero)
+  display: flex; alfabeto = "abcdefghijklmnopqrstuvwxyz"
+senha = "marcelo"
+senha_criptografada = ""
   justify-content: space-between; 
-  align-items: center; 
-  padding: 15px 25px; 
-} body { 
-  display: flex; 
-  flex-direction: column; 
-  min-height: 100vh; 
-} main { 
-  flex: 1; 
-} 
+  align-items: center; numero = ord(letra)  # 97 até 122
+  padding: 15px 25px; dicionario = ""
+} body { for letra in senha:dicionario = "qwertyuiopasdfghjklzxcvbnm"
+  display: flex; numero = ord(letra) - ord("a")  # 0 até 25
+  flex-direction: column; numero = ord(letra) - ord("a")  # 0 até 25
+  min-height: 100vh; posicao = ord(letra) - ord("a")
+} main { for letra in alfabeto:
+    posicao = ord(letra) - ord("a")
+    senha_criptografada += dicionario[posicao]
+  flex: 1; print(letra, posicao)
+} for letra in senha:print(senha_criptografada)chave_secreta = "zyxwvutsrqponmlkjihgfedcba"
+letra_original = 'd'
+______alfabeto_secreto = "phqgiumeaylnofdxjkrcvstzwb"
+nome = "bia"
+nome_protegido = ""
+
+for char in nome:
+    posicao = ord(char) - ord('a')
+    nome_protegido += alfabeto_secreto[posicao]______
+____________
+____________
